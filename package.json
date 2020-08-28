@@ -6,10 +6,9 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack --mode=development",
     "start": "NODE_ENV=development webpack-dev-server --mode=development --open",
-    "build": "del-cli dist && NODE_ENV=production webpack --mode=production && html dist/*.html --indent-size 2",
+    "build": "NODE_ENV=production webpack --mode=production && html build/*.html --indent-size 2",
     "build-html-line": "NODE_ENV=production webpack --mode=production",
-    "watch": "NODE_ENV=development webpack --mode=development --watch",
-    "clear": "del-cli dist"
+    "watch": "NODE_ENV=development webpack --mode=development --watch"
   },
   "author": "",
   "license": "ISC",

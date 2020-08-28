@@ -26,13 +26,14 @@ const htmlPlugins = generateHtmlPlugins(path.resolve(__dirname, 'src/html/views'
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
+    contentBase: path.resolve(__dirname, 'build'),
     compress: true,
     port: 9000
   },
   entry: ['@babel/polyfill', './assets/js/index.js'],
   output: {
-    filename: './js/[name].[hash].js'
+    filename: './js/[name].[hash].js',
+      path: path.resolve(__dirname, 'build'),
   },
   optimization: {
     splitChunks: {
