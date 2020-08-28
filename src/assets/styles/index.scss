@@ -1,2 +1,13 @@
 @import "~normalize.css";
 //@import "~bootstrap/scss/bootstrap";
+@import "./blocks/about/about.css";
+@import "./vendor/fonts.css";
+
+body {
+  background-color: #fff;
+  font-family: 'Gilroy';
+}
+
+.wrapper {
+  max-width: 1640px;
+}

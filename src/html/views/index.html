@@ -5,6 +5,18 @@ author: "Roman"
 
 <%= _.template(require('../includes/header.html').default)(data) %>
 <div class="container">
-    <p>Контент.</p>
+    <section class="about">
+      <div class="wrapper about__wrapper">
+        <h2 class="section__title about__title">
+          кто мы
+        </h2>
+        <p class="about__descript">
+          Квартира 122 —  веб-студия: помогаем людям и организациям, которым нужен сайт, приложение или сервис. Нарисуем, сверстаем, запрограммируем и продвинем любую фигню за немного деньжат или еду
+        </p>
+        <a href="#" class="btn">
+        	<span>посмотреть что мы уже навертели</span>
+        </a>
+      </div>
+    </section>
 </div>
 <%= _.template(require('../includes/footer.html').default)(data) %>
