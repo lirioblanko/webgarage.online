@@ -1,17 +1,10 @@
-.main {
-    /*background-color: green;*/
-    display: flex;
-    margin: 0 auto;
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*min-height: 600px;*/
+.main-screen {
+    background-image: url("../../../img/main_30.jpg");
+    background-size: cover;
 }
 
 .main__wrapper {
-    /*max-width: 80%;*/
-    max-width: 1640px;
-    height: 100vh;
-    margin: 0 9rem;
+    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +18,7 @@
     font-size: 5rem;
     font-style:  normal;
     font-weight: 900;
+    width: 80%;
     /*letter-spacing: 1rem;*/
 }
 

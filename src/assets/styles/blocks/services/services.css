@@ -1,6 +1,4 @@
 .services {
-    display: flex;
-    margin: 0 auto;
     background-color: #184757;
     color: #fff;
 }
@@ -9,6 +7,7 @@
     display: flex;
     flex-direction: row;
 }
+
 .services_info {
     display: flex;
     flex-direction: column;
@@ -55,8 +54,8 @@
 }
 
 .services__card_icon {
-    border-radius: 50%;
-    background-color: #fff;
+    /*border-radius: 50%;*/
+    /*background-color: #fff;*/
     width: 60px;
     height: 60px;
     max-width: 5rem;
@@ -107,7 +106,7 @@
 
     .services__card {
         max-width:100%;
-        margin-top: 4rem;
+        margin-top: 5rem;
         align-items: center;
         text-align: center;
     }

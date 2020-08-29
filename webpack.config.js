@@ -55,8 +55,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
-        include: path.resolve(__dirname, 'src/assets/images'),
+        test: /\.(png|jpg|jpeg|gif|svg)$/i,
         use: {
           loader: 'file-loader',
           options: {
@@ -67,7 +66,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(ttf|eot|woff|woff2|svg)$/,
+        test: /\.(ttf|eot|woff|woff2)$/,
         // include: path.resolve(__dirname, 'src/assets/fonts'),
         use: {
           loader: 'file-loader',
@@ -82,7 +81,7 @@ module.exports = {
         test: /\.css$/i,
         include: path.resolve(__dirname, 'src/assets/styles'),
         use: [
-          MiniCssExtractPlugin.loader,
+          isDev? 'style-loader': MiniCssExtractPlugin.loader,
           'css-loader'
         ],
       },
@@ -90,7 +89,7 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         include: path.resolve(__dirname, 'src/assets/styles'),
         use: [
-          MiniCssExtractPlugin.loader,
+          isDev? 'style-loader': MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader',
         ],
@@ -99,15 +98,15 @@ module.exports = {
         test: /\.less$/i,
         include: path.resolve(__dirname, 'src/assets/styles'),
         use: [
-          MiniCssExtractPlugin.loader,
+          isDev? 'style-loader': MiniCssExtractPlugin.loader,
           'css-loader',
           'less-loader',
         ],
       },
       {
         test: /\.html$/,
-        include: path.resolve(__dirname, 'src/html/includes'),
-        use: ['raw-loader']
+        // include: path.resolve(__dirname, 'src/html/includes'),
+        use: ['html-loader']
       },
     ]
   },

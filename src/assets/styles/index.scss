@@ -2,27 +2,52 @@
 //@import "~bootstrap/scss/bootstrap";
 
 @import "./vendor/fonts.css";
-
+@import "./blocks/header/header.css";
 @import "./blocks/main/main.css";
 @import "./blocks/about/about.css";
 @import "./blocks/services/services.css";
+@import "./blocks/partners/partners.css";
+@import "./blocks/contact/contact.css";
+@import "./blocks/footer/footer.css";
 @import "./blocks/button/button.css";
+
 
 body {
   background-color: #fff;
   font-family: 'Gilroy';
 }
 
+.page {
+  box-sizing:border-box;
+}
+.section {
+  padding: 20rem 9rem 17rem;
+}
+
 .wrapper {
   max-width: 1640px;
-  //margin: 24rem 9rem 17rem;
-  margin: 20rem 9rem 17rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .margin-left {
   margin-left: 9rem;
 }
 
-* {
-border: 1px solid black;
+.text-decor {
+  color: #FEB103;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
+
+.w-text {
+  color: #fff;
+}
+
+.n-text {
+  font-weight: normal;
+}
+//* {
+//border: 1px solid black;
+//}

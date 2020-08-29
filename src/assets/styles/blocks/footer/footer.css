@@ -1,0 +1,39 @@
+.footer {
+    padding: 4rem 9rem 4rem;
+    display: flex;
+    margin: 0 auto;
+    background-color: #184757;
+    color: #fff;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.footer_row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+}
+
+.footer_text {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style:  normal;
+    color: #fff;
+}
+
+.footer__copyright {
+    margin: 0;
+}
