@@ -111,7 +111,18 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .header {
+        padding: 1.5rem 4rem;
+    }
 
+    .logo {
+        width: 150px;
+    }
+
+    .menu__nav_link {
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -119,71 +130,34 @@
 }
 
 @media screen and (max-width: 768px) {
-    .allMenu_is-active {
-        left: calc(15% + 4rem);
+    .header {
+        padding: 2rem 2rem;
     }
 
-    .hamburger__wrapper {
-        width: 4rem;
+    .logo {
+        width: 140px;
     }
-    .menu__btn {
-        width: 2.25rem;
-        height: 2.25rem;
-        margin-top: 2rem;
+    .menu {
+        display: none;
     }
+
 }
 
 @media screen and (max-width: 576px) {
-    .allMenu_is-active {
-        left: calc(10% + 4rem);
-    }
 
-    .hamburger__wrapper {
-        width: 4rem;
-    }
-
-    .menu__btn {
-        width: 2rem;
-        height: 2rem;
-        margin-top: 2rem;
-    }
-
-    .menu__nav_link {
-        font-size: 1.5rem;
-        margin: 0.5rem 0;
-    }
-
-    .menu-items__wrapper {
-        margin-left: 4rem;
-    }
 }
 
 @media screen and (max-width: 440px) {
-    .allMenu_is-active {
-        left: calc(5% + 3rem);
+    .header {
+        padding: 1rem 1rem;
     }
 
-    .hamburger__wrapper {
-        width: 3rem;
-    }
-
-    .menu__btn {
-        width: 2rem;
-        height: 2rem;
-        margin-top: 2rem;
-    }
-
-    .menu__nav_link {
-        font-size: 1.5rem;
-        margin: 1rem 0;
-    }
-
-    .menu-items__wrapper {
-        margin-left: 2rem;
-    }
-    .link_text:hover::after {
-        height: 15px;
-
+    .logo {
+        width: 100px;
     }
 }
+
+
+
+
 

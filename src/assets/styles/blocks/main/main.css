@@ -27,7 +27,10 @@
 }
 
 @media screen and (max-width: 1200px) {
-
+    .main__title {
+        font-size: 4rem;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -35,7 +38,10 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    .main__title {
+        font-size: 3.5rem;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -43,5 +49,8 @@
 }
 
 @media screen and (max-width: 440px) {
-
+    .main__title {
+        font-size: 2rem;
+        width: 80%;
+    }
 }

@@ -51,3 +51,42 @@ body {
 //* {
 //border: 1px solid black;
 //}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .section {
+    padding: 17rem 4rem 14rem;
+  }
+  .margin-left {
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 15rem 2rem 10rem;
+  }
+  .margin-left {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 440px) {
+  .section {
+    padding: 10rem 1rem 7rem;
+  }
+  .margin-left {
+    margin-left: 3rem;
+  }
+}
