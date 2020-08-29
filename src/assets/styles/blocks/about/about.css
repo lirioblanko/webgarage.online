@@ -31,7 +31,7 @@
 
 .about__descript {
     margin: 0;
-    max-width: 80%;
+    /*max-width: 80%;*/
     z-index: 1;
     font-size: 3.125rem;
     line-height: 4rem;

@@ -1,0 +1,165 @@
+.services {
+    display: flex;
+    margin: 0 auto;
+    background-color: #184757;
+    color: #fff;
+}
+
+.services__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.services_info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.services_info__top{
+    display: flex;
+    flex-direction: column;
+}
+
+.services_info__bottom {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.services__title {
+    margin: 0;
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style:  normal;
+    letter-spacing: 0.25rem;
+}
+
+.services__descript {
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 100;
+    font-style:  normal;
+    /*letter-spacing: 0.125rem;*/
+}
+.services_cards {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.services__card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.services__card_icon {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    max-width: 5rem;
+}
+
+.services__card_title {
+    margin-top: 1.5rem;
+    color: #FEB103;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.125rem;
+}
+
+.services__card_descript {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .services {
+        padding-right: 4rem;
+    }
+
+    .services__wrapper {
+        margin: 4rem auto
+    }
+
+    .services__title {
+        font-size: 2.25rem;
+        letter-spacing: 0.1rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    .services__card {
+        max-width:100%;
+        margin-top: 4rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .services__wrapper-card {
+        margin-bottom: 6rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .services {
+        padding-right: 4rem;
+    }
+    .services__wrapper {
+        margin: 4rem auto
+    }
+    .services__title {
+        font-size: 2.25rem;
+        letter-spacing: 0.1rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    .services__card {
+        max-width:100%;
+        margin-top: 4rem;
+        align-items: center;
+        text-align: center;
+    }
+    .services__wrapper-card {
+        margin-bottom: 6rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .services {
+        padding-right: 3rem;
+    }
+    .services__wrapper {
+        margin: 4rem auto
+    }
+    .services__title {
+        font-size: 2rem;
+    }
+    .services__wrapper-card {
+        margin-bottom: 6rem;
+        width: 100%;
+    }
+    .services__card_icon {
+        max-width: 3rem;
+    }
+}
+
+

@@ -20,7 +20,7 @@ author: "Roman"
         <h2 class="section__title about__title">
           кто мы
         </h2>
-        <p class="about__descript">
+        <p class="about__descript margin-left">
           Квартира 122 —  веб-студия: помогаем людям и организациям, которым нужен сайт, приложение или сервис. Нарисуем, сверстаем, запрограммируем и продвинем любую фигню за немного деньжат или еду
         </p>
         <a href="#" class="btn">
@@ -28,5 +28,45 @@ author: "Roman"
         </a>
       </div>
     </section>
+  <section class="services">
+    <div class="wrapper services__wrapper">
+      <div class="services_info">
+        <div class="services_info__top">
+          <h2 class="section__title services__title">
+            Чем мы поможем
+          </h2>
+          <p class="services__descript margin-left">
+            С Божьей помощью что-нибудь сделаем. Это неточно, долго, плохо и всем будет стыдно. Но мы постараемся!
+          </p>
+        </div>
+        <div class="services_info__bottom margin-left">
+          <a href="#" class="btn">
+            <span>заказать</span>
+          </a>
+        </div>
+      </div>
+      <div class="services_cards margin-left ">
+<!--        <div class="services__wrapper-card">-->
+          <div class="services__card">
+            <img src="" class="services__card_icon" alt="">
+            <div class="services__card_title">сделаем сайт или приложение</div>
+            <div class="services__card_descript">Платформы с графиками и инструментами для анализа финансовых рынков</div>
+          </div>
+          <div class="services__card">
+            <img src="" class="services__card_icon" alt="">
+            <div class="services__card_title">сервис шмервис</div>
+            <div class="services__card_descript">Платформы с графиками и инструментами для анализа финансовых рынков.Платформы с графиками и инструментами для анализа финансовых рынков</div>
+          </div>
+          <div class="services__card">
+            <img src="" class="services__card_icon" alt="">
+            <div class="services__card_title">дизайн недизайн</div>
+            <div class="services__card_descript">Платформы с графиками и инструментами для анализа финансовых рынков.Платформы с графиками и инструментами для анализа финансовых рынков</div>
+          </div>
+<!--        </div>-->
+      </div>
+
+
+    </div>
+  </section>
 </div>
 <%= _.template(require('../includes/footer.html').default)(data) %>

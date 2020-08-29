@@ -5,6 +5,7 @@
 
 @import "./blocks/main/main.css";
 @import "./blocks/about/about.css";
+@import "./blocks/services/services.css";
 @import "./blocks/button/button.css";
 
 body {
@@ -14,8 +15,14 @@ body {
 
 .wrapper {
   max-width: 1640px;
-  margin: 24rem 9rem 17rem;
+  //margin: 24rem 9rem 17rem;
+  margin: 20rem 9rem 17rem;
 }
-//* {
-//border: 1px solid black;
-//}
+
+.margin-left {
+  margin-left: 9rem;
+}
+
+* {
+border: 1px solid black;
+}

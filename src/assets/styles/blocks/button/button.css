@@ -6,9 +6,10 @@
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 900;
-    letter-spacing: 0.125rem;
-    padding: 2.5rem 9rem ;
+    letter-spacing: 0.25rem;
+    padding: 2rem 8rem ;
     margin-top: 7rem;
+    /*align-items: flex-end;*/
 }
 
 .btn:hover {
