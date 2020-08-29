@@ -1,7 +1,11 @@
 @import "~normalize.css";
 //@import "~bootstrap/scss/bootstrap";
-@import "./blocks/about/about.css";
+
 @import "./vendor/fonts.css";
+
+@import "./blocks/main/main.css";
+@import "./blocks/about/about.css";
+@import "./blocks/button/button.css";
 
 body {
   background-color: #fff;
@@ -10,4 +14,8 @@ body {
 
 .wrapper {
   max-width: 1640px;
+  margin: 24rem 9rem 17rem;
 }
+//* {
+//border: 1px solid black;
+//}
