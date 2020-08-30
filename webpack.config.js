@@ -33,7 +33,7 @@ module.exports = {
   entry: ['@babel/polyfill', './assets/js/index.js'],
   output: {
     filename: './js/[name].[hash].js',
-      path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'build'),
   },
   optimization: {
     splitChunks: {
@@ -66,8 +66,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(ttf|eot|woff|woff2)$/,
-        // include: path.resolve(__dirname, 'src/assets/fonts'),
+        test: /\.(ttf|eot|woff|woff2)$/i,
         use: {
           loader: 'file-loader',
           options: {
@@ -79,27 +78,41 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        include: path.resolve(__dirname, 'src/assets/styles'),
         use: [
-          isDev? 'style-loader': MiniCssExtractPlugin.loader,
-          'css-loader'
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '../',
+            }
+          },
+          'css-loader',
         ],
       },
       {
         test: /\.s[ac]ss$/i,
-        include: path.resolve(__dirname, 'src/assets/styles'),
         use: [
-          isDev? 'style-loader': MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '../',
+            }
+          },
           'css-loader',
-          'sass-loader',
+          'resolve-url-loader',
+          'sass-loader?sourceMap',
         ],
       },
       {
         test: /\.less$/i,
-        include: path.resolve(__dirname, 'src/assets/styles'),
         use: [
-          isDev? 'style-loader': MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '../',
+            }
+          },
           'css-loader',
+          'resolve-url-loader',
           'less-loader',
         ],
       },
@@ -112,14 +125,13 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: './css/[name].[contenthash].css',
-      chunkFilename: './css/[id].css',
+      filename: 'styles/[name].[contenthash].css'
     }),
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: './assets/favicon',
-          to: './favicon'
+          from: 'assets/favicon',
+          to: 'favicon'
         }
       ]
     }),
