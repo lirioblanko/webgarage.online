@@ -91,3 +91,38 @@ input:focus {
     transition: opacity .4s;
     font-family: inherit;
 }
+
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+    .contact__title {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .contact__title {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact__title {
+        font-size: 3rem;
+        letter-spacing: 0.25rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .contact__title {
+        font-size: 2rem;
+    }
+}

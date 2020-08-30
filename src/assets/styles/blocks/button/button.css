@@ -7,7 +7,7 @@
     text-decoration: none;
     font-weight: 900;
     letter-spacing: 0.25rem;
-    padding: 2rem 8rem ;
+    padding: 1.5rem 7rem ;
     margin-top: 7rem;
     /*align-items: flex-end;*/
 }
@@ -18,6 +18,14 @@
     opacity: .7;
 }
 
+.btn-show {
+    display: flex;
+}
+
+.btn-hidden {
+    display: none;
+}
+
 @media screen and (max-width: 1440px) {
 
 }
@@ -26,7 +34,7 @@
     .btn{
         font-size: 1.025rem;
         letter-spacing: 0.25rem;
-        padding: 1.5rem 6rem ;
+        padding: 1.25rem 5rem ;
         margin-top: 5.5rem;
     }
 }
@@ -42,6 +50,13 @@
         padding: 1rem 2rem ;
         margin-top: 4rem;
     }
+
+    .btn-show {
+        display: none;
+    }
+    .btn-hidden {
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -50,10 +65,11 @@
 
 @media screen and (max-width: 440px) {
     .btn{
-        font-size: 1rem;
+        font-size: 0.875rem;
         letter-spacing: 0.25rem;
-        padding: 1rem 3rem ;
+        padding: 0.875rem 3rem ;
         margin-top: 5rem;
+        line-height: 1rem;
     }
 }
 
