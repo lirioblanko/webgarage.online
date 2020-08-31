@@ -1,81 +1,87 @@
 .services {
-    background-color: #184757;
-    color: #fff;
+    background-color: $color-blue;
+    color: $color-white;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &_top {
+            display: flex;
+            flex-direction: column;
+        }
+        &_bottom  {
+            display: flex;
+            justify-content: flex-start;
+        }
+        &_title {
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-style:  normal;
+            font-size: 8rem;
+            letter-spacing: 0.25rem;
+            @media screen and (max-width: 440px) {
+                font-size: 2rem;
+            }
+        }
+        &_descript {
+            font-weight: 100;
+            font-style:  normal;
+            font-size: 2rem;
+            //letter-spacing: 0.125rem;
+            @media screen and (max-width: 440px) {
+                font-size: 1rem;
+                line-height: 1.5rem;
+            }
+        }
+    }
+    &__cards {
+        display: flex;
+        flex-direction: column;
+    }
 }
-
-.services__wrapper {
-    display: flex;
-    flex-direction: row;
-}
-
-.services_info {
-    display: flex;
-    flex-direction: column;
-    /*width: 60%;*/
-    justify-content: space-between;
-}
-
-.services_info__top{
-    display: flex;
-    flex-direction: column;
-}
-
-.services_info__bottom {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.services__title {
-    margin: 0;
-    font-size: 8rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-style:  normal;
-    letter-spacing: 0.25rem;
-}
-
-.services__descript {
-    margin-top: 5rem;
-    font-size: 2rem;
-    font-weight: 100;
-    font-style:  normal;
-    /*letter-spacing: 0.125rem;*/
-}
-
-.services_cards {
-    display: flex;
-    flex-direction: column;
-    /*width: 40%;*/
-}
-
-.services__card {
+.services-card {
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
+    &__icon {
+        width: 60px;
+        height: 60px;
+        max-width: 5rem;
+    }
+    &__title {
+        margin-top: 1.5rem;
+        color: #FEB103;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 0.125rem;
+        @media screen and (max-width: 440px) {
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            letter-spacing: 0.125rem;
+        }
+    }
+    &__descript {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        @media screen and (max-width: 440px) {
+            margin-top: 1rem;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
 }
 
-.services__card_icon {
-    /*border-radius: 50%;*/
-    /*background-color: #fff;*/
-    width: 60px;
-    height: 60px;
-    max-width: 5rem;
-}
 
-.services__card_title {
-    margin-top: 1.5rem;
-    color: #FEB103;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 0.125rem;
-}
 
-.services__card_descript {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
-}
+
+
 
 @media screen and (max-width: 1440px) {
 
@@ -88,7 +94,6 @@
     }
 
     .services__descript {
-        margin-top: 5rem;
         font-size: 1.5rem;
         line-height: 1.75rem;
     }
@@ -120,7 +125,6 @@
 
 }
 
-
 @media screen and (max-width: 768px) {
     .services__wrapper {
         flex-direction: column;
@@ -134,7 +138,6 @@
     }
 
     .services__descript {
-        margin-top: 5rem;
         font-size: 1.5rem;
     }
 
@@ -160,7 +163,6 @@
         line-height: 1.75rem;
     }
 }
-
 
 @media screen and (max-width: 576px) {
     .services_info {
@@ -172,7 +174,6 @@
     }
 
     .services__descript {
-        margin-top: 5rem;
         font-size: 1.5rem;
     }
 
@@ -200,27 +201,6 @@
 
 }
 
-@media screen and (max-width: 440px) {
-    .services__title {
-        font-size: 2rem;
-    }
 
-    .services__descript {
-        margin-top: 3rem;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-    .services__card_title {
-        margin-top: 1.5rem;
-        font-size: 1.125rem;
-        letter-spacing: 0.125rem;
-    }
-
-    .services__card_descript {
-        margin-top: 1rem;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-}
 
 

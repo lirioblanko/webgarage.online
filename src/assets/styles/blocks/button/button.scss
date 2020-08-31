@@ -1,26 +1,24 @@
 .btn{
-    color: #fff;
-    background-color: #FEB103;
-    border-radius: 6px;
-    font-size: 1.25rem;
+    color: $color-white;
+    background-color: $color-yellow;
+    font-family: inherit;
+    cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
+    border-radius: 6px;
     font-weight: 900;
+    font-size: 1.25rem;
     letter-spacing: 0.25rem;
     padding: 1.5rem 7rem ;
-    margin-top: 7rem;
-    cursor: pointer;
-    /*align-items: flex-end;*/
-}
-
-.btn:hover {
-    color: #184757;
-    transition: opacity .4s;
-    opacity: .7;
+    &:hover {
+        color: #184757;
+        transition: opacity .4s;
+        opacity: .7;
+    }
 }
 
 .btn-show {
-    display: flex;
+    display: inline;
 }
 
 .btn-hidden {
@@ -28,10 +26,6 @@
 }
 .form__button {
     border: 0;
-    margin: 0!important;
-    /*font-size: 0;*/
-    /*height: 40px;*/
-    font-family: inherit;
 }
 @media screen and (max-width: 1440px) {
 
@@ -40,9 +34,7 @@
 @media screen and (max-width: 1200px) {
     .btn{
         font-size: 1.025rem;
-        letter-spacing: 0.25rem;
         padding: 1.25rem 5rem ;
-        margin-top: 5.5rem;
     }
 }
 
@@ -53,16 +45,15 @@
 @media screen and (max-width: 768px) {
     .btn{
         font-size: 1rem;
-        letter-spacing: 0.25rem;
         padding: 1rem 2rem ;
-        margin-top: 4rem;
     }
 
     .btn-show {
         display: none;
     }
     .btn-hidden {
-        display: flex;
+        display: inline-block;
+        margin-top: 3rem;
     }
 }
 
@@ -73,10 +64,7 @@
 @media screen and (max-width: 440px) {
     .btn{
         font-size: 0.875rem;
-        letter-spacing: 0.25rem;
         padding: 0.875rem 3rem ;
-        margin-top: 5rem;
-        line-height: 1rem;
     }
 }
 

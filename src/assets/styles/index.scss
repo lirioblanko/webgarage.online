@@ -1,92 +1,41 @@
 @import "~normalize.css";
-//@import "~bootstrap/scss/bootstrap";
+@import "./vendor/fonts.scss";
 
-@import "./vendor/fonts.css";
-@import "./blocks/header/header.css";
-@import "./blocks/main/main.css";
-@import "./blocks/about/about.css";
-@import "./blocks/services/services.css";
-@import "./blocks/partners/partners.css";
-@import "./blocks/contact/contact.css";
-@import "./blocks/footer/footer.css";
-@import "./blocks/button/button.css";
+@import "./blocks/base/base.scss";
+@import "./blocks/optional/optional.scss";
+@import "./blocks/color/color.scss";
 
+@import "./blocks/header/header.scss";
+@import "./blocks/main/main.scss";
+@import "./blocks/about/about.scss";
+@import "./blocks/services/services.scss";
+@import "./blocks/partners/partners.scss";
+@import "./blocks/contact/contact.scss";
+@import "./blocks/footer/footer.scss";
+@import "blocks/button/button.scss";
 
-body {
-  background-color: #fff;
-  font-family: 'Gilroy';
-}
-
-.page {
-  box-sizing:border-box;
-}
-.section {
-  padding: 20rem 9rem 17rem;
-}
-
-.wrapper {
-  max-width: 1640px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.margin-left {
-  margin-left: 9rem;
-}
-
-.text-decor {
-  color: #FEB103;
-  font-weight: 800;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.w-text {
-  color: #fff;
-}
-
-.n-text {
-  font-weight: normal;
-}
 //* {
 //border: 1px solid black;
 //}
 
-@media screen and (max-width: 1440px) {
 
+
+
+
+@media screen and (max-width: 1440px) {
 }
 
 @media screen and (max-width: 1200px) {
-  .section {
-    padding: 15rem 4rem 12rem;
-  }
-  .margin-left {
-    margin-left: 6rem;
-  }
 }
 
 @media screen and (max-width: 992px) {
-
 }
 
 @media screen and (max-width: 768px) {
-  .section {
-    padding: 10rem 2rem 8rem;
-  }
-  .margin-left {
-    margin-left: 5rem;
-  }
 }
 
 @media screen and (max-width: 576px) {
-
 }
 
 @media screen and (max-width: 440px) {
-  .section {
-    padding: 6rem 1rem 5rem;
-  }
-  .margin-left {
-    margin-left: 3rem;
-  }
 }

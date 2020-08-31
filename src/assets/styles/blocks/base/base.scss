@@ -1,0 +1,49 @@
+body {
+  background-color: #fff;
+  font-family: 'Gilroy';
+}
+
+.page {
+  box-sizing:border-box;
+}
+
+.section {
+  padding: 15rem 9rem 12rem;
+}
+
+.wrapper {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .section {
+    padding: 15rem 4rem 12rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 10rem 2rem 8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 440px) {
+  .section {
+    padding: 6rem 1rem 5rem;
+  }
+}
