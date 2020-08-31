@@ -9,6 +9,18 @@ body {
 
 .section {
   padding: 15rem 9rem 12rem;
+  @media screen and (max-width: 1200px) {
+    padding: 12rem 4rem 10rem;
+  }
+  @media screen and (max-width: 992px) {
+    padding: 10rem 2rem 8rem;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 9rem 2rem 7rem;
+  }
+  @media screen and (max-width: 440px) {
+    padding: 6rem 1rem 5rem;
+  }
 }
 
 .wrapper {
@@ -18,32 +30,3 @@ body {
 }
 
 
-@media screen and (max-width: 1440px) {
-
-}
-
-@media screen and (max-width: 1200px) {
-  .section {
-    padding: 15rem 4rem 12rem;
-  }
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 768px) {
-  .section {
-    padding: 10rem 2rem 8rem;
-  }
-}
-
-@media screen and (max-width: 576px) {
-
-}
-
-@media screen and (max-width: 440px) {
-  .section {
-    padding: 6rem 1rem 5rem;
-  }
-}

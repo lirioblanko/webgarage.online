@@ -10,63 +10,54 @@
     font-size: 1.25rem;
     letter-spacing: 0.25rem;
     padding: 1.5rem 7rem ;
+    @media screen and (max-width: 1200px) {
+        font-size: 1.025rem;
+        padding: 1.25rem 5rem ;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+        padding: 1rem 2rem ;
+    }
+    @media screen and (max-width: 440px) {
+        font-size: 0.875rem;
+        padding: 0.875rem 3rem ;
+    }
+
+    &-show {
+        display: inline;
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &-hidden {
+        display: none;
+        @media screen and (max-width: 768px) {
+            display: inline-block;
+            margin-top: 3rem;
+        }
+    }
+
+    &-form {
+        border: 0;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+
     &:hover {
-        color: #184757;
+        color: $color-blue;
         transition: opacity .4s;
         opacity: .7;
     }
 }
 
-.btn-show {
-    display: inline;
-}
 
-.btn-hidden {
-    display: none;
-}
-.form__button {
-    border: 0;
-}
-@media screen and (max-width: 1440px) {
 
-}
-
-@media screen and (max-width: 1200px) {
-    .btn{
-        font-size: 1.025rem;
-        padding: 1.25rem 5rem ;
-    }
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 768px) {
-    .btn{
-        font-size: 1rem;
-        padding: 1rem 2rem ;
-    }
-
-    .btn-show {
-        display: none;
-    }
-    .btn-hidden {
-        display: inline-block;
-        margin-top: 3rem;
-    }
-}
-
-@media screen and (max-width: 576px) {
-
-}
-
-@media screen and (max-width: 440px) {
-    .btn{
-        font-size: 0.875rem;
-        padding: 0.875rem 3rem ;
-    }
-}
 
 
 

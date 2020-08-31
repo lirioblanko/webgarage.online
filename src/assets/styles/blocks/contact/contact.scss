@@ -1,129 +1,119 @@
 .contact {
     background-image: url("../../../img/main_30.jpg");
     background-size: cover;
-}
-
-.contact__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact__title {
-    margin: 0;
-    font-size: 8rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-style:  normal;
-    letter-spacing: 0.25rem;
-    color: #184757;
-}
-
-.form_column {
-    display: flex;
-    flex-direction: row;
-    margin-top: 3rem;
-}
-
-.form__input-container {
-    display: flex;
-    flex-direction: column;
-    border: 0;
-    width: 50%;
-    /*line-height: 100%;*/
-    /*justify-content: space-between;*/
-    /*align-items: stretch;*/
-}
-
-
-input::-webkit-input-placeholder {
-    color:#184757;
-    font-size: 1.25rem;
-    font-family: inherit;
-    padding: 1.5rem;}
-
-input::-moz-placeholder          {color:#184757;}
-input::-ms-input-placeholder     {color:#184757;}
-input::placeholder               {color:#184757;}
-
-textarea::-webkit-input-placeholder {color:#184757;}
-textarea::-moz-placeholder          {color:#184757;}
-textarea::-ms-input-placeholder     {color:#184757;}
-textarea::placeholder               {color:#184757;}
-
-input {
-    outline: none;
-}
-
-input:focus {
-    outline: none;
-}
-
-
-.form__item {
-    width: 100%;
-    /*height: 33%;*/
-    box-sizing: border-box;
-    border: 1px solid #bcbcc4;
-    background-color: #fff;
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    font-family: inherit;
-    padding:1rem ;
-}
-
-.form__item:focus {
-    outline-color: #fff6c5;
-}
-
-.form__item_main-text {
-    height: 100%;
-    /*margin-left: 2rem;*/
-}
-
-.form__input-container:first-child {
-    margin-right: 3rem;
-    /*background-color: #DF1919;*/
-}
-
-@media screen and (max-width: 1440px) {
-
-}
-
-@media screen and (max-width: 1200px) {
-    .contact__title {
-        font-size: 6rem;
-    }
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 768px) {
-    .contact__title {
-        font-size: 4rem;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .contact__title {
-        font-size: 3rem;
-        letter-spacing: 0.25rem;
-    }
-    .form_column {
+    &__wrapper {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.form {
+    &__title {
+        margin: 0;
+        color: $color-blue;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 7rem;
+        letter-spacing: 0.25rem;
+        @media screen and (max-width: 1440px) {
+            font-size: 6rem;
+        }
+        @media screen and (max-width: 1200px) {
+            font-size: 4rem;
+        }
+        @media screen and (max-width: 992px) {
+            font-size: 4rem;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 3rem;
+            letter-spacing: 0.25rem;
+        }
+        @media screen and (max-width: 440px) {
+            font-size: 2rem;
+        }
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: row;
         margin-top: 3rem;
+        @media screen and (max-width: 576px) {
+            flex-direction: column;
+            margin-top: 1.5rem;
+        }
     }
 
-    .form__input-container {
+    &__input-container {
+        display: flex;
+        flex-direction: column;
+        border: 0;
         width: 100%;
+        &-container:first-child {
+            margin-right: 2.5rem;
+            @media screen and (max-width: 1440px) {
+                margin-right: 2.5rem;
+            }
+            @media screen and (max-width: 1200px) {
+                margin-right: 2rem;
+            }
+            @media screen and (max-width: 768px) {
+                margin-right: 1.5rem;
+            }
+        }
     }
 
-}
-
-@media screen and (max-width: 440px) {
-    .contact__title {
-        font-size: 2rem;
+    &__item {
+        font-family: inherit;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #bcbcc4;
+        background-color: $color-white;
+        margin-top: 1rem;
+        font-size: 1.25rem;
+        padding:1rem;
+        @media screen and (max-width: 1200px) {
+            padding:0.75rem;
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 0.75rem;
+            font-size: 1rem;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 1rem;
+            padding:0.75rem;
+        }
+        &_main-text {
+            height: 100%;
+            @media screen and (max-width: 576px) {
+                height: 10rem
+            }
+        }
     }
 }
+
+input, textarea {
+    outline: none;
+    &:focus {
+        outline: none;
+    }
+    &::placeholder {
+        font-family: inherit;
+        color:$color-blue;
+        font-size: 1.25rem;
+        @media screen and (max-width: 768px) {
+            font-size: 1rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
