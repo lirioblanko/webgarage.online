@@ -1,13 +1,16 @@
 .main-screen {
     background-image: url("../../../img/main_30.jpg");
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .main__wrapper {
     /*height: 100vh;*/
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: flex-start;
 }
 

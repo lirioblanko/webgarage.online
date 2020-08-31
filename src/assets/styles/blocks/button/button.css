@@ -9,6 +9,7 @@
     letter-spacing: 0.25rem;
     padding: 1.5rem 7rem ;
     margin-top: 7rem;
+    cursor: pointer;
     /*align-items: flex-end;*/
 }
 
@@ -25,7 +26,13 @@
 .btn-hidden {
     display: none;
 }
-
+.form__button {
+    border: 0;
+    margin: 0!important;
+    /*font-size: 0;*/
+    /*height: 40px;*/
+    font-family: inherit;
+}
 @media screen and (max-width: 1440px) {
 
 }
