@@ -4,11 +4,20 @@
     &__wrapper {
         display: flex;
         flex-direction: row;
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
     }
     &__info {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            //width: 100%;
+        }
         &_top {
             display: flex;
             flex-direction: column;
@@ -24,6 +33,13 @@
             font-style:  normal;
             font-size: 8rem;
             letter-spacing: 0.25rem;
+            @media screen and (max-width: 1200px) {
+                font-size: 4rem;
+                letter-spacing: 0.25rem;
+            }
+            @media screen and (max-width: 576px) {
+                font-size: 3rem;
+            }
             @media screen and (max-width: 440px) {
                 font-size: 2rem;
             }
@@ -32,26 +48,59 @@
             font-weight: 100;
             font-style:  normal;
             font-size: 2rem;
+            line-height: 2.5rem;
             //letter-spacing: 0.125rem;
+            @media screen and (max-width: 1200px) {
+                font-size: 1.5rem;
+                line-height: 1.75rem;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 1.5rem;
+            }
+            @media screen and (max-width: 576px) {
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
             @media screen and (max-width: 440px) {
-                font-size: 1rem;
-                line-height: 1.5rem;
+                font-size: 1.25rem;
+                line-height: 1.75rem;
             }
         }
     }
     &__cards {
         display: flex;
         flex-direction: column;
+        //@media screen and (max-width: 1200px) {
+        //    margin-top: 2rem;
+        //}
     }
 }
 .services-card {
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
+    @media screen and (max-width: 768px) {
+        margin-top: 4rem;
+    }
     &__icon {
         width: 60px;
         height: 60px;
         max-width: 5rem;
+        @media screen and (max-width: 1200px) {
+            width: 60px;
+            height: 60px;
+            max-width: 5rem;
+        }
+        @media screen and (max-width: 768px) {
+            width: 60px;
+            height: 60px;
+            max-width: 5rem;
+        }
+        @media screen and (max-width: 576px) {
+            width: 60px;
+            height: 60px;
+            max-width: 5rem;
+        }
     }
     &__title {
         margin-top: 1.5rem;
@@ -60,6 +109,21 @@
         text-transform: uppercase;
         font-weight: 900;
         letter-spacing: 0.125rem;
+        @media screen and (max-width: 1200px) {
+            margin-top: 1.5rem;
+            font-size: 1.5rem;
+            letter-spacing: 0.125rem;
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 1.5rem;
+            font-size: 2rem;
+            letter-spacing: 0.125rem;
+        }
+        @media screen and (max-width: 576px) {
+            margin-top: 1.5rem;
+            font-size: 2rem;
+            letter-spacing: 0.125rem;
+        }
         @media screen and (max-width: 440px) {
             margin-top: 1.5rem;
             font-size: 1.125rem;
@@ -70,6 +134,21 @@
         margin-top: 1rem;
         font-size: 1.5rem;
         line-height: 1.75rem;
+        @media screen and (max-width: 1200px) {
+            margin-top: 1rem;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 1rem;
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+        }
+        @media screen and (max-width: 576px) {
+            margin-top: 1rem;
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+        }
         @media screen and (max-width: 440px) {
             margin-top: 1rem;
             font-size: 1rem;
@@ -80,126 +159,6 @@
 
 
 
-
-
-
-@media screen and (max-width: 1440px) {
-
-}
-
-@media screen and (max-width: 1200px) {
-    .services__title {
-        font-size: 4rem;
-        letter-spacing: 0.25rem;
-    }
-
-    .services__descript {
-        font-size: 1.5rem;
-        line-height: 1.75rem;
-    }
-
-    .services__card {
-        margin-top: 4rem;
-    }
-
-    .services__card_icon {
-        width: 60px;
-        height: 60px;
-        max-width: 5rem;
-    }
-
-    .services__card_title {
-        margin-top: 1.5rem;
-        font-size: 1.5rem;
-        letter-spacing: 0.125rem;
-    }
-
-    .services__card_descript {
-        margin-top: 1rem;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 768px) {
-    .services__wrapper {
-        flex-direction: column;
-    }
-    .services_info {
-        width: 100%;
-    }
-    .services__title {
-        font-size: 3rem;
-        letter-spacing: 0.25rem;
-    }
-
-    .services__descript {
-        font-size: 1.5rem;
-    }
-
-    .services__card {
-        margin-top: 4rem;
-    }
-
-    .services__card_icon {
-        width: 60px;
-        height: 60px;
-        max-width: 5rem;
-    }
-
-    .services__card_title {
-        margin-top: 1.5rem;
-        font-size: 2rem;
-        letter-spacing: 0.125rem;
-    }
-
-    .services__card_descript {
-        margin-top: 1rem;
-        font-size: 1.5rem;
-        line-height: 1.75rem;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .services_info {
-        width: 100%;
-    }
-    .services__title {
-        font-size: 3rem;
-        letter-spacing: 0.25rem;
-    }
-
-    .services__descript {
-        font-size: 1.5rem;
-    }
-
-    .services__card {
-        margin-top: 4rem;
-    }
-
-    .services__card_icon {
-        width: 60px;
-        height: 60px;
-        max-width: 5rem;
-    }
-
-    .services__card_title {
-        margin-top: 1.5rem;
-        font-size: 2rem;
-        letter-spacing: 0.125rem;
-    }
-
-    .services__card_descript {
-        margin-top: 1rem;
-        font-size: 1.5rem;
-        line-height: 1.75rem;
-    }
-
-}
 
 
 
