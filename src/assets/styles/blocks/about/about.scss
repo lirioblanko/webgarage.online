@@ -65,6 +65,22 @@
             line-height: 1.5rem;
         }
     }
+    &__btn {
+        width: max-content;
+        height: 16rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        //background-color: red;
+        &::after {
+            content: "";
+            background-image: url("../../../../assets/img/main_arrow.svg");
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            margin-top: 1rem;
+        }
+    }
 }
 
 

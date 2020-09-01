@@ -11,15 +11,18 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 12rem 0;
+        padding: 12rem 9rem;
+        @media screen and (max-width: 1200px) {
+            padding: 10rem 4rem;
+        }
         @media screen and (max-width: 992px) {
-            padding: 8rem 0;
+            padding: 8rem 2rem;
         }
         @media screen and (max-width: 768px) {
-            padding: 7rem 0;
+            padding: 7rem 2rem;
         }
         @media screen and (max-width: 440px) {
-            padding: 5rem 0;
+            padding: 5rem 1rem;
         }
     }
     &__title {
@@ -56,7 +59,7 @@
     }
     &__btn {
         width: max-content;
-        height: 200px;
+        height: 13rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;

@@ -2,13 +2,13 @@
     padding: 1rem 9rem;
     background-color: transparent;
     @media screen and (max-width: 1200px) {
-        padding: 1.5rem 4rem;
+        padding: 1rem 4rem;
     }
     @media screen and (max-width: 768px) {
-        padding: 1rem 2rem;
+        padding: 0.5rem 2rem;
     }
     @media screen and (max-width: 440px) {
-        padding: 1rem 1rem;
+        padding: 0.5rem 1rem;
     }
     &__wrapper {
         display: flex;
@@ -22,12 +22,9 @@
 .logo {
     width: 8rem;
     @media screen and (max-width: 1200px) {
-        width: 150px;
+        width: 7rem
     }
-    @media screen and (max-width: 768px) {
-        width: 140px;
-    }
-    @media screen and (max-width: 440px) {
+    @media screen and (max-width: 992px) {
         width: 6rem;
     }
 }
@@ -45,7 +42,13 @@
 }
 
 .menu {
-    width: 40%;
+    width: 45%;
+    @media screen and (max-width: 1200px) {
+        width: 50%;
+    }
+    @media screen and (max-width: 992px) {
+        width: 65%;
+    }
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -59,7 +62,7 @@
         text-transform: uppercase;
         font-weight: 900;
         color: $color-blue;
-        font-size: 1.25rem;
+        font-size: 1rem;
         letter-spacing: 0.1rem;
         @media screen and (max-width: 1200px) {
             font-size: 1rem;

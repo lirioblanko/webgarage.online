@@ -68,7 +68,8 @@
         font-family: inherit;
         width: 100%;
         box-sizing: border-box;
-        border: 1px solid #bcbcc4;
+        border: 1px solid $color-grey;
+        border-radius: 2px;
         background-color: $color-white;
         margin-top: 1rem;
         font-size: 1.25rem;
