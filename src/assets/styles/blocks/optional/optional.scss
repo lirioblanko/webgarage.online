@@ -78,3 +78,15 @@
     display: none;
   }
 }
+
+.decor {
+  background-image: url("../../../../assets/img/decor_el.svg");
+  width: 100px;
+  height: 100vh;
+  position: fixed;
+  right: -5px;
+  top: 0;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
