@@ -3,18 +3,15 @@
     margin: 0 auto;
     background-color: $color-blue;
     color: $color-white;
-    padding: 4rem 9rem 4rem;
+    padding: 2rem 9rem;
     @media screen and (max-width: 1200px) {
         padding: 3rem 4rem 2rem;
     }
     @media screen and (max-width: 768px) {
         padding: 2rem 2rem 1.5rem;
     }
-    @media screen and (max-width: 576px) {
-
-    }
     @media screen and (max-width: 440px) {
-        padding: 1rem 1rem;
+        padding: 1rem 1rem 1.5rem;
     }
 
     &__wrapper {
@@ -26,42 +23,67 @@
     &__column {
         display: flex;
         flex-direction: column;
-        //width: 50%;
-        @media screen and (max-width: 440px) {
-            //width: 100%;
+        width: 40%;
+        @media screen and (max-width: 992px) {
+            width: 50%;
+        }
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            margin-top: 4rem;
+        }
+        @media screen and (max-width: 576px) {
+            margin-top: 3rem;
+        }
+        &_hidden {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            @media screen and (max-width: 992px) {
+                width: 50%;
+            }
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
+
         }
     }
     &__row {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 4rem;
         @media screen and (max-width: 768px) {
-                flex-direction: column;
-                justify-content: space-between;
+            margin-top: 0rem;
+            flex-direction: column;
         }
     }
-    &__text {
+    &_text {
         color: $color-white;
         font-weight: 100;
         font-style:  normal;
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-        font-size: 1rem;
+        font-size: 1.25rem;
         @media screen and (max-width: 440px) {
-            margin-top: 1rem;
-            margin-bottom: 2rem;
             font-size: 1rem;
         }
+    }
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 .copyright {
     margin: 0;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
 }
 
 .text-decor {
     color: $color-yellow;
-    font-weight: 800;
+    font-weight: normal;
     text-decoration: none;
+    margin-top: 1rem;
+    letter-spacing: 0.075rem;
 }
 
 

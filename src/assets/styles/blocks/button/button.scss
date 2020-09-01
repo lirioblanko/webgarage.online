@@ -8,8 +8,8 @@
     border-radius: 6px;
     font-weight: 900;
     font-size: 1.25rem;
-    letter-spacing: 0.25rem;
-    padding: 1.5rem 7rem ;
+    letter-spacing: 0.125rem;
+    padding: 1.25rem 5rem ;
     @media screen and (max-width: 1200px) {
         font-size: 1.025rem;
         padding: 1.25rem 5rem ;
@@ -24,7 +24,7 @@
     }
 
     &-show {
-        display: inline;
+        display: inline-block;
         @media screen and (max-width: 768px) {
             display: none;
         }
@@ -43,10 +43,7 @@
         @media screen and (max-width: 768px) {
             width: 100%;
         }
-        @media screen and (max-width: 576px) {
-            width: 100%;
-            margin-top: 2rem;
-        }
+
     }
 
     &:hover {

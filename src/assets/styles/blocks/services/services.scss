@@ -22,18 +22,36 @@
             display: flex;
             flex-direction: column;
         }
-        &_bottom  {
+        &_arr {
             display: flex;
             justify-content: flex-start;
+            margin-bottom: 4rem;
+            height: 10rem;
+
+        }
+        &_btn  {
+            width: max-content;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+           justify-content: flex-end;
+            &::before {
+                content: "";
+                background-image: url("../../../../assets/img/arrow.svg");
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position-x: center;
+                margin-bottom: 3rem;
+            }
         }
         &_title {
             margin: 0;
             text-transform: uppercase;
             font-weight: 900;
             font-style:  normal;
-            font-size: 8rem;
+            font-size: 6rem;
             letter-spacing: 0.25rem;
-            @media screen and (max-width: 1200px) {
+            @media screen and (max-width: 1440px) {
                 font-size: 4rem;
                 letter-spacing: 0.25rem;
             }
@@ -41,7 +59,7 @@
                 font-size: 3rem;
             }
             @media screen and (max-width: 440px) {
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
         }
         &_descript {
@@ -50,12 +68,13 @@
             font-size: 2rem;
             line-height: 2.5rem;
             //letter-spacing: 0.125rem;
-            @media screen and (max-width: 1200px) {
+            @media screen and (max-width: 1440px) {
                 font-size: 1.5rem;
                 line-height: 1.75rem;
             }
             @media screen and (max-width: 768px) {
                 font-size: 1.5rem;
+                margin-bottom: -2rem;
             }
             @media screen and (max-width: 576px) {
                 font-size: 1.5rem;
@@ -70,9 +89,10 @@
     &__cards {
         display: flex;
         flex-direction: column;
-        //@media screen and (max-width: 1200px) {
-        //    margin-top: 2rem;
-        //}
+        width: 80%;
+        @media screen and (max-width: 1200px) {
+            width: 100%;
+        }
     }
 }
 .services-card {
@@ -83,39 +103,24 @@
         margin-top: 4rem;
     }
     &__icon {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         max-width: 5rem;
-        @media screen and (max-width: 1200px) {
-            width: 60px;
-            height: 60px;
-            max-width: 5rem;
-        }
         @media screen and (max-width: 768px) {
-            width: 60px;
-            height: 60px;
-            max-width: 5rem;
-        }
-        @media screen and (max-width: 576px) {
             width: 60px;
             height: 60px;
             max-width: 5rem;
         }
     }
     &__title {
-        margin-top: 1.5rem;
-        color: #FEB103;
-        font-size: 2rem;
+        margin-top: 1rem;
+        color: $color-yellow;
+        font-size: 1.5rem;
+        line-height: 2rem;
         text-transform: uppercase;
         font-weight: 900;
         letter-spacing: 0.125rem;
-        @media screen and (max-width: 1200px) {
-            margin-top: 1.5rem;
-            font-size: 1.5rem;
-            letter-spacing: 0.125rem;
-        }
         @media screen and (max-width: 768px) {
-            margin-top: 1.5rem;
             font-size: 2rem;
             letter-spacing: 0.125rem;
         }
@@ -131,26 +136,23 @@
         }
     }
     &__descript {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         font-size: 1.5rem;
-        line-height: 1.75rem;
+        line-height: 2rem;
+        font-weight: normal;
         @media screen and (max-width: 1200px) {
-            margin-top: 1rem;
             font-size: 1rem;
             line-height: 1.5rem;
         }
         @media screen and (max-width: 768px) {
-            margin-top: 1rem;
             font-size: 1.5rem;
             line-height: 1.75rem;
         }
         @media screen and (max-width: 576px) {
-            margin-top: 1rem;
             font-size: 1.5rem;
             line-height: 1.75rem;
         }
         @media screen and (max-width: 440px) {
-            margin-top: 1rem;
             font-size: 1rem;
             line-height: 1.5rem;
         }
