@@ -50,7 +50,7 @@
         flex-direction: column;
         border: 0;
         width: 100%;
-        &-container:first-child {
+        &:first-child {
             margin-right: 2.5rem;
             @media screen and (max-width: 1440px) {
                 margin-right: 2.5rem;

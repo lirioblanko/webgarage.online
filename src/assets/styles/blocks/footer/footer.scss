@@ -1,100 +1,68 @@
 .footer {
-    padding: 4rem 9rem 4rem;
     display: flex;
     margin: 0 auto;
-    background-color: #184757;
-    color: #fff;
-}
-
-.footer__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /*align-items: center;*/
-}
-
-.footer_column {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.footer_row {
-    display: flex;
-    flex-direction: row;
-    margin-top: 6rem;
-}
-
-.footer_text {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    font-weight: 100;
-    font-style:  normal;
-    color: #fff;
-}
-
-.footer__copyright {
-    margin: 0;
-}
-
-
-@media screen and (max-width: 1440px) {
-
-}
-
-@media screen and (max-width: 1200px) {
-    .footer {
+    background-color: $color-blue;
+    color: $color-white;
+    padding: 4rem 9rem 4rem;
+    @media screen and (max-width: 1200px) {
         padding: 3rem 4rem 2rem;
     }
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 768px) {
-    .footer {
+    @media screen and (max-width: 768px) {
         padding: 2rem 2rem 1.5rem;
     }
-}
+    @media screen and (max-width: 576px) {
 
-@media screen and (max-width: 576px) {
-    .footer-menu {
-        display: none;
     }
-}
-
-@media screen and (max-width: 440px) {
-    .footer {
-        padding: 1rem 1rem 1rem;
+    @media screen and (max-width: 440px) {
+        padding: 1rem 1rem;
     }
 
-    .footer__wrapper {
+    &__wrapper {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         /*align-items: center;*/
     }
-
-    .footer_column {
-        width: 100%;
-    }
-
-    .footer_row {
+    &__column {
+        display: flex;
         flex-direction: column;
-        margin-top: 4rem;
+        //width: 50%;
+        @media screen and (max-width: 440px) {
+            //width: 100%;
+        }
     }
-
-    .footer_text {
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media screen and (max-width: 768px) {
+                flex-direction: column;
+                justify-content: space-between;
+        }
+    }
+    &__text {
+        color: $color-white;
+        font-weight: 100;
+        font-style:  normal;
         margin-top: 3rem;
         margin-bottom: 2rem;
         font-size: 1rem;
-    }
-
-    .footer__copyright {
-        margin: 0;
+        @media screen and (max-width: 440px) {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+        }
     }
 }
+.copyright {
+    margin: 0;
+}
+
+.text-decor {
+    color: $color-yellow;
+    font-weight: 800;
+    text-decoration: none;
+}
+
 
 

@@ -5,8 +5,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
-const isDev = process.env.NODE_ENV === 'development'
-const isProd = !isDev
+const isDev = process.env.NODE_ENV === 'development';
+const isProd = !isDev;
 
 function generateHtmlPlugins(templateDir) {
   const templateFiles = fs.readdirSync(path.resolve(__dirname, templateDir));
@@ -27,7 +27,8 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   devServer: {
     contentBase: path.resolve(__dirname, 'build'),
-    compress: true,
+    host: '0.0.0.0',
+    useLocalIp: true,
     port: 9000
   },
   entry: ['@babel/polyfill', './assets/js/index.js'],
@@ -131,7 +132,7 @@ module.exports = {
       patterns: [
         {
           from: 'assets/favicon',
-          to: 'favicon'
+          to: ''
         }
       ]
     }),
