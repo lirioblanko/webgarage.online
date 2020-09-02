@@ -80,13 +80,25 @@
 }
 
 .decor {
-  background-image: url("../../../../assets/img/decor_el.svg");
-  width: 100px;
-  height: 100vh;
-  position: fixed;
-  right: -5px;
-  top: 0;
-  @media screen and (max-width: 1200px) {
-    display: none;
-  }
+    width: 95px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
+  .decor-item {
+    width: 100%;
+    height: auto;
+  }
+  .decor-item:nth-child(n+1) {
+    margin-top: -100%;
+  }
+  //background-image: url("../../../../assets/img/decor_el.svg");
+  //width: 100px;
+  //height: 100vh;
+  //position: fixed;
+  //right: -5px;
+  //top: 0;
+  //@media screen and (max-width: 1200px) {
+  //  display: none;
+  //}
