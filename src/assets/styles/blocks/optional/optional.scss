@@ -80,11 +80,15 @@
 }
 
 .decor {
-    width: 95px;
+    width: 75px;
     height: 100vh;
     position: fixed;
     right: 0;
     top: 0;
+  z-index: 99;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
 }
   .decor-item {
     width: 100%;
