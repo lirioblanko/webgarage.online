@@ -2,6 +2,9 @@ body {
   background-color: #fff;
   font-family: 'Gilroy';
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .page {
   box-sizing:border-box;

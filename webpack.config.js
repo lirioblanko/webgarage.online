@@ -26,6 +26,7 @@ const htmlPlugins = generateHtmlPlugins(path.resolve(__dirname, 'src/html/views'
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   devServer: {
+    open: 'Google Chrome',
     contentBase: path.resolve(__dirname, 'build'),
     host: '0.0.0.0',
     useLocalIp: true,
@@ -122,6 +123,17 @@ module.exports = {
         // include: path.resolve(__dirname, 'src/html/includes'),
         use: ['html-loader']
       },
+      {
+        test: /\.ejs$/,
+        use: [
+          {
+            loader: 'ejs-loader',
+            options: {
+              esModule: false
+            }
+          }
+        ]
+      }
     ]
   },
   plugins: [
