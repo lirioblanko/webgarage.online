@@ -67,6 +67,8 @@ async function sendEmail(subject, message) {
           'Content-Type': 'application/json'
         }
       });
+
+      // TODO: add 'Thank you!' message
     } catch (error) {
         console.log(error)
         alert('ошибка')
