@@ -67,8 +67,6 @@ async function sendEmail(subject, message) {
           'Content-Type': 'application/json'
         }
       });
-      const json = await response.json();
-      console.log(JSON.stringify(json));
     } catch (error) {
         console.log(error)
         alert('ошибка')
