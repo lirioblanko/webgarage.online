@@ -8,7 +8,29 @@
     }
 }
 
+.success-msg {
+    display: none;
+    visibility: visible;
+    opacity: 0;
+    transition: opacity 600ms, visibility 600ms;
+
+    h2 {
+        font-size: 5rem;
+        text-transform: uppercase;
+        color: $color-blue;
+    }
+
+    strong {
+        font-size: 3rem;
+        color: $color-yellow;
+    }
+    
+}
+
 .form {
+    opacity: 1;
+    transition: opacity 600ms, visibility 600ms;
+
     &__title {
         margin: 0;
         color: $color-blue;
