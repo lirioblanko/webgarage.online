@@ -57,6 +57,7 @@ async function sendEmail(sbj, msg) {
     "moskrc@gmail.com",
     "sprashivaesh@yandex.ru",
     "goldliliya@mail.ru",
+    "deluverance@mail.ru"
   ];
   const data = { subject: sbj, message: msg, toEmails: toEmails };
 
@@ -69,8 +70,10 @@ async function sendEmail(sbj, msg) {
       },
     });
 
-
     feedback_form.reset();
+
+    // ya ne dizayner/frontender i css ne videl nikogda
+    // eto ne rabotaet, ya zadolbalsya, ya backender, otstn'te ot menya
     feedback_form.style.display = "none";
     success_msg.style.display = "block";
     success_msg.style.opacity = 1;
@@ -89,7 +92,7 @@ const message = feedback_form.elements[3];
 
 feedback_form.addEventListener("submit", (event) => {
   event.preventDefault();
-  
+
   if (validateEmail(email)) {
     const message_to_send = `Имя: ${name.value}\nТелефон: ${phone.value}\nПочта: ${email.value}\nСообщение: \n${message.value}\n`;
     sendEmail("Заказ с сайта", message_to_send);
