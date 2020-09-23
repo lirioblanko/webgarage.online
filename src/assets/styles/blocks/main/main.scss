@@ -1,6 +1,12 @@
 .main {
-    background-image: url("../../../img/main.jpg");
-    background-size: cover;
+    //background-image: url("../../../img/main.jpg");
+    //background-size: cover;
+    position: relative;
+    .main__canvas {
+        position: absolute;
+        z-index: -1;
+    }
+
     display: flex;
     align-items: center;
     height: 100vh;

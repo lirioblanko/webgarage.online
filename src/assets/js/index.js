@@ -1,4 +1,5 @@
 import "../styles/index.scss";
+import './headerMasking'
 
 let el = document.querySelector(".toggleClass");
 document.addEventListener("scroll", toggleClassOnScroll.bind(el, 1));
