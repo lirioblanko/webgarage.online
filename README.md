@@ -1,13 +1,23 @@
-# webpack-html-scss-template
+# webgarage.online
 
-## Webpack template for development static html pages
+> webgarage.online
 
-### `npm start`
+## Build Setup
 
-Running http-server with page hot-reloading 
-[http://localhost:9000](http://localhost:9000) in browser.
+``` bash
+# install dependencies
+$ npm install # Or yarn install
 
-### `npm run build`
+# serve with hot reload at localhost:3000
+$ npm run dev
 
+# build for production and launch server
+$ npm run build
+$ npm start
 
-Running project build into dist folder with pages, folders and files# webgarage.online
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+

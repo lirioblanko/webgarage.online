@@ -1,0 +1,37 @@
+@import "./vendor/fonts.scss";
+
+@import "./blocks/color/color.scss";
+@import "./blocks/base/base.scss";
+
+@import "./blocks/header/header.scss";
+@import "./blocks/main/main.scss";
+@import "./blocks/about/about.scss";
+@import "./blocks/services/services.scss";
+@import "./blocks/partners/partners.scss";
+@import "./blocks/contact/contact.scss";
+@import "./blocks/footer/footer.scss";
+@import "blocks/button/button.scss";
+@import "./blocks/optional/optional.scss";
+
+//* {
+//border: 1px solid black;
+//}
+
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 440px) {
+}

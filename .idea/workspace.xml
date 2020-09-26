@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="783423a3-381b-4eb8-a4c8-4ad1e3b6637e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webgarage.online.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/portfolio.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.git-ftp.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-ExtraBold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-ExtraBold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-ExtraBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-ExtraBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-ExtraBold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-Light.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Gilroy-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/decor_el.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/decor_el.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/logo-color.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo-color.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/main_arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/main_arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/main.d21bbdf557f545797f6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/vendors~main.d21bbdf557f545797f6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/styles/main.878432729008b34eb3cc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/favicon/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/decor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/decor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/decor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/decor_el.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logo-color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/main_arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/base/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/base/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/color/color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/color/color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/contact/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/contact/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/main/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/main/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/optional/optional.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/optional/optional.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/partners/partners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/partners/partners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/services/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/blocks/services/services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-ExtraBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-ExtraBold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-ExtraBold.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-Light.otf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/vendor/fonts/Gilroy-Light.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/fonts/Gilroy-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/includes/footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/includes/header.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/views/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/views/portfolio.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1i2yYDDM7EdLS5QFshoyD0KPv78" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/old" />
+      <recent name="$PROJECT_DIR$/tmp" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="783423a3-381b-4eb8-a4c8-4ad1e3b6637e" name="Default Changelist" comment="" />
+      <created>1601120027674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601120027674</updated>
+      <workItem from="1601120029144" duration="4281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="642" y="275" width="604" height="490" key="find.popup" timestamp="1601123870620">
+      <screen x="0" y="23" width="1920" height="1018" />
+    </state>
+    <state x="642" y="275" width="604" height="490" key="find.popup/0.23.1920.1018@0.23.1920.1018" timestamp="1601123870620" />
+    <state x="609" y="261" width="670" height="676" key="search.everywhere.popup" timestamp="1601122411350">
+      <screen x="0" y="23" width="1920" height="1018" />
+    </state>
+    <state x="609" y="261" width="670" height="676" key="search.everywhere.popup/0.23.1920.1018@0.23.1920.1018" timestamp="1601122411350" />
+  </component>
+</project>

@@ -1,0 +1,86 @@
+.about {
+    display: flex;
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        position: absolute;
+        z-index: 0;
+        top: -160px;
+        left: 0;
+        margin: 0;
+        color: $color-grey;
+        font-style:  normal;
+        font-weight: 800;
+        font-size: 17rem;
+        letter-spacing: 1rem;
+        @media screen and (max-width: 1440px) {
+            top: -90px;
+            font-size: 12rem;
+            letter-spacing: 0.2rem;
+        }
+        @media screen and (max-width: 768px) {
+            top: -65px;
+            font-size: 9rem;
+        }
+        @media screen and (max-width: 576px) {
+            top: -45px;
+            font-size: 6rem;
+            letter-spacing: 0.2rem;
+        }
+        @media screen and (max-width: 440px) {
+            top: -1.5rem;
+            font-size: 4.25rem;
+        }
+    }
+
+    &__descript {
+        z-index: 1;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2.125rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.125rem;
+        @media screen and (max-width: 1440px) {
+                font-size: 2rem;
+                letter-spacing: 0.02rem;
+        }
+        @media screen and (max-width: 768px) {
+                font-size: 1.5rem;
+                line-height: 2rem;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            letter-spacing: 0.02rem;
+        }
+        @media screen and (max-width: 440px) {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+    &__btn {
+        width: max-content;
+        height: 16rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        //background-color: red;
+        &::after {
+            content: "";
+            background-image: url("~assets/img/main_arrow.svg");
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            margin-top: 1rem;
+        }
+    }
+}
+
+

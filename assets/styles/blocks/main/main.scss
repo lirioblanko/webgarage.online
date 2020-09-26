@@ -1,0 +1,76 @@
+.main {
+    background-image: url("~assets/img/main.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    @media screen and (max-height: 400px) {
+        height: 100%;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12rem 9rem;
+        @media screen and (max-width: 1200px) {
+            padding: 10rem 4rem;
+        }
+        @media screen and (max-width: 992px) {
+            padding: 8rem 2rem;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 7rem 2rem;
+        }
+        @media screen and (max-width: 440px) {
+            padding: 5rem 1rem;
+        }
+    }
+    &__title {
+        margin: 2rem 0 0;
+        color: $color-blue;
+        text-transform: uppercase;
+        font-size: 4rem;
+        line-height: 4.5rem;
+        font-style:  normal;
+        font-weight: 900;
+        width: 80%;
+        letter-spacing: 0.2rem;
+        @media screen and (max-width: 768px) {
+            margin: 0;
+            font-size: 3.5rem;
+            line-height: 4rem;
+        }
+        @media screen and (max-width: 440px) {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            letter-spacing: 0.02rem;
+        }
+    }
+    &__subtitle {
+        font-style:  normal;
+        font-weight: 100;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        color: $color-blue;
+        @media screen and (max-width: 440px) {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+    &__btn {
+        width: max-content;
+        height: 13rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        //background-color: red;
+        &::before {
+            content: "";
+            background-image: url("~assets/img/main_arrow.svg");
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            margin-bottom: 1rem;
+        }
+    }
+}
