@@ -67,6 +67,9 @@
         @media screen and (max-width: 1200px) {
             font-size: 1rem;
         }
+      &.active {
+        color: $color-yellow;
+      }
     }
 }
 

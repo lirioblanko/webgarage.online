@@ -23,9 +23,13 @@
           </div>
           <div class="footer__column_hidden">
             <nav class="footer__menu">
-              <a href="#about" class="footer_text link_text"><span>Кто мы</span></a>
+              <nuxt-link :to="{path: '/', hash:'#about'}" class="footer_text link_text">
+                <span>Кто мы</span>
+              </nuxt-link>
               <nuxt-link to="/portfolio" class="footer_text link_text"><span>Что мы наделали</span></nuxt-link>
-              <a href="#order" class="footer_text link_text"><span>Контакты</span></a>
+              <nuxt-link :to="{path: '/', hash:'#order'}" class="footer_text link_text">
+                <span>Контакты</span>
+              </nuxt-link>
             </nav>
           </div>
         </div>

@@ -13,9 +13,9 @@
               </h1>
               <h3 class="main__subtitle">Дизайн, разработка и продвижение</h3>
               <div class="main__btn">
-                <a href="#order" class="btn">
+                <nuxt-link :to="{path: '/', hash:'#order'}" class="btn">
                   <span>заказать</span>
-                </a>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -31,9 +31,9 @@
                 сверстаем, запрограммируем и продвинем любую фигню за немного деньжат или еду
               </p>
               <div class="about__btn">
-                <a href="#" class="btn margin-btn ">
+                <nuxt-link to="/portfolio" class="btn margin-btn">
                   <span>посмотреть</span>
-                </a>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -52,9 +52,9 @@
                   </p>
                 </div>
                 <div class="services__info_btn margin-left ">
-                  <a href="#order" class="btn btn-show">
+                  <nuxt-link :to="{path: '/', hash:'#order'}" class="btn btn-show">
                     <span>заказать</span>
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
               <div class="services__cards margin-left margin-right">
@@ -80,9 +80,9 @@
                   </div>
                 </div>
                 <div class="center">
-                  <a href="#order" class="btn btn-hidden">
+                  <nuxt-link :to="{path: '/', hash:'#order'}" class="btn-hidden">
                     <span>заказать</span>
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
             </div>

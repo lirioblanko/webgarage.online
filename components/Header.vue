@@ -9,9 +9,14 @@
         </div>
         <div class="menu">
           <nav class="menu__wrapper">
-            <a href="#about" class="menu__nav-link"><span class="link_text">Кто мы</span></a>
-            <nuxt-link to="/portfolio" class="menu__nav-link"><span class="link_text">Что мы наделали</span></nuxt-link>
-            <a href="#order" class="menu__nav-link"><span class="link_text">Контакты</span></a>
+            <nuxt-link :to="{path: '/', hash:'#about'}" class="menu__nav-link">
+              <span class="link_text">Кто мы</span>
+            </nuxt-link>
+            <nuxt-link to="/portfolio" class="menu__nav-link" exact-active-class="active"><span class="link_text">Что мы наделали</span>
+            </nuxt-link>
+            <nuxt-link :to="{path: '/', hash:'#order'}" class="menu__nav-link">
+              <span class="link_text">Контакты</span>
+            </nuxt-link>
           </nav>
         </div>
       </div>
@@ -24,6 +29,7 @@ export default {
   mounted() {
     const headerRef = this.$refs.header
     document.addEventListener("scroll", toggleClassOnScroll.bind(headerRef));
+
     function toggleClassOnScroll(e) {
       let scrollTop = window.scrollY;
       if (scrollTop > 0) {
